@@ -21,7 +21,7 @@ $.get(url, (data, status) => {
     $('#input').on('keyup', function(){
         let value = $(this).val().toLowerCase();
         if(value.length >= 2){
-            $('#tbody tr'[2]).filter(function(){
+            $('#tbody tr').filter(function(){
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
             })
         }else{
