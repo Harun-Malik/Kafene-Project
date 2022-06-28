@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="orders.js" defer></script>
+    <link rel="stylesheet" href="orders.css">
+    <title>Orders Listing</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logoBox">
+            <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="" id="logoImg">
+            <p id="logo">Kafene</p>
+        </div>
+        <nav id="navBar">
+            <a href="orders.html">Orders</a>
+            <a href="products.html">Products</a>
+            <a href="users.html">Users</a>
+        </nav>
+        <h3 id="logout">Logout</h3>
+    </header>
+    <h1 class="orderHeading">Orders</h1>
+    <div class="orderSection">
+
+        <div class="filterSection">
+            <h3>Filter</h3>
+            <p>Count:<span>0</span></p>
+            <p><input type="checkbox" name="" id="checkbox"> New </p>
+            <p> <input type="checkbox" name="" id="checkbox-1">InTransit</p>
+            <p> <input type="checkbox" name="" id="checkbox-2">Packed </p>
+            <p> <input type="checkbox" name="" id="checkbox-3">Dilivered</p>
+        </div>
+        <div class="orderDetails">
+            <table id="table">
+                <!-- <tr> -->
+                    <th>ID</th>
+                    <th>Customer</th>
+                    <th>Data</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                <!-- </tr> -->
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

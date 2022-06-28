@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    background-color: #f6f7fb;
+}
+#header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    
+}
+.logoBox{
+    display: flex;
+    width: 10%;
+    margin-left: 3%;
+    background-color: #fff;
+}
+.logoBox #logo{
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #fff;
+}
+#navBar{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+#navBar  a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+}
+#header #logoImg{
+        width: 24px;
+        height: 28px;
+        margin-right: 8px;
+}
+.loginDetails{
+    display: flex;
+    justify-content: center;
+    
+}
+.loginDetails .details{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 6px #ccc;
+    width: 40%;
+    height: 50vh;
+    margin-top: 50px;
+    padding: 30px;
+}
+.details input{
+    background-color: rgb(223, 233, 229);
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+#btn{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #20b883;
+    color: #fff;
+    border: none    ;
+    cursor: pointer;
+}

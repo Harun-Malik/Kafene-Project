@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="users.js" defer></script>
+    <!-- <script src="user.js" defer></script> -->
+    <link rel="stylesheet" href="users.css">
+    <title>Users Listing</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logoBox">
+            <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="" id="logoImg">
+            <p id="logo">Kafene</p>
+        </div>
+        <nav id="navBar">
+            <a href="orders.html">Orders</a>
+            <a href="products.html">Products</a>
+            <a href="users.html">Users</a>
+        </nav>
+        <h3 id="logout">Logout</h3>
+    </header>
+    <h1 class="usersHeading">Users</h1>
+    <div class="searchBar">
+        <input type="text" placeholder="Search by Name" id="input">
+        <button id="btn">Reset</button>
+    </div>
+    <div class="usersDetails">
+        <table id="table">
+           <thead>
+            <th>ID</th>
+            <th>User Avatar</th>
+            <th>Full Name</th>
+            <th>DOB</th>
+            <th>Gender</th>
+            <th>Current Location</th>
+           </thead>
+           <tbody id="tbody">
+
+           </tbody>
+        </table>
+    </div>
+</body>
+</html>
