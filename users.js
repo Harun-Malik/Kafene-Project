@@ -33,7 +33,7 @@ $.get(url, (data, status) => {
         $('#input').val('');
     })
     $(logout).click(()=>{
-        window.location.href = 'login.html'
+        window.location.href = 'index.html';
     })
 
 })
