@@ -2,6 +2,7 @@ $(document).ready(() => {
     let checkBox = $('input[type=checkbox]');
     let span = $('span');
     let table = $('#table')
+    let logout = $('#logout')
 
 
     let url = 'https://5fc1a1c9cb4d020016fe6b07.mockapi.io/api/v1/products'
@@ -14,6 +15,9 @@ $(document).ready(() => {
             }
         }
 
+    })
+    $(logout).click(()=>{
+        window.location.href = 'index.html';
     })
 
 })
